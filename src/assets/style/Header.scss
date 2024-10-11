@@ -1,0 +1,74 @@
+#header {
+  background: #010049;
+  padding: 30px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      color: white;
+      font-size: 25px;
+    }
+    &--nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      button {
+        width: 100px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 20px;
+        background: none;
+        color: white;
+      }
+      &__search {
+        position: relative;
+        select {
+          width: 100px;
+          height: 40px;
+          border: 2px solid white;
+          border-radius: 8px;
+          font-size: 18px;
+          background: none;
+          color: white;
+        }
+        input {
+          font-size: 20px;
+          color: gray;
+          padding: 10px 30px;
+          border-radius: 10px;
+          border: none;
+          margin-left: 30px;
+        }
+        &--icon {
+          color: gray;
+          font-size: 27px;
+          position: absolute;
+          right: 10px;
+          top: 6px;
+        }
+      }
+      &__item {
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  }
+  .bg {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.748);
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    min-height: 100vh;
+    backdrop-filter: blur(3px);
+  }
+}

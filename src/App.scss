@@ -1,0 +1,26 @@
+@import"./assets/style/Admin.scss";
+@import"./assets/style/Header.scss";
+@import"./assets/style/Hero.scss";
+@import"./assets/style/Basket.scss";
+@import"./assets/style/AddProduct.scss";
+@import"./assets/style/BooksDetalis.scss";
+@import"./assets/style/Footer.scss";
+@import"./assets/style/Detalis.scss";
+@import"./assets/style/Search.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
